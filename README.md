@@ -60,7 +60,7 @@ The command for turning the skeleton and animation files into something you can 
 where output_file.hkx will be a Havok file that you can open in 3DS Max using HavokMax.
 
 This is what it looks like when I run this command on the files we just obtained:
-![command](https://github.com/lmcintyre/AnimAssist/raw/main/gh/extract)
+![command](https://github.com/lmcintyre/AnimAssist/raw/main/gh/extract.png)
 
 Note the skeleton warning. Skeletons mismatch don't produce an error, and will break literally everything ever.
 
