@@ -2,6 +2,8 @@
 Provides a quick and easy way to mod animations in FFXIV.
 
 You will need:
+- Before anything, the VC++2012 32-bit Redist from [here](https://www.microsoft.com/en-us/download/details.aspx?id=30679#). Havok will not
+launch in any way without it. You need `VSU_4\vcredist_x86.exe` from the link.
 - The executables from this repository. Click releases, download the latest one, and extract the folder somewhere on your system.
 - One of:
   - Python. I wrote anim.py on 3.8.10.
