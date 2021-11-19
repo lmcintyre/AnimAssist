@@ -193,7 +193,7 @@ and easy for others, but I ask you make it public.
 This repository would not have been possible without PredatorCZ's immense work on HavokLib and HavokMax.
 
 ### Building
-Building animassist.exe requires the Havok 2014 SDK and an env var of `HAVOK_SDK_ROOT` set to the directory.
+Building animassist.exe requires the Havok 2014 SDK and an env var of `HAVOK_SDK_ROOT` set to the directory, as well as the Visual C++ Platform Toolset v110. This is included in any install of VS2012, including the Community edition.
 
 You can find the Havok SDK to compile with [in the description of this video](https://www.youtube.com/watch?v=U88C9K-mSHs).
 Please note that is NOT a download I control, just a random one from online.
