@@ -48,7 +48,7 @@ the FFXIV folder paths. If you select C:\Users\User\Desktop\tmp, it will save th
 `C:\Users\User\Desktop\tmp\chara\human\c0101\skeleton\base\b0001\skl_c0101b0001.sklb`. That's just the way it is.
 
 Anyways, since we're still on male Hyur, go to `chara/human/c0101/animation/bt_common/emote` and do the same thing as above,
-but with `fistbump.pap`. This is your animation file. Place them both somewhere save, **as you'll need both of them later to put the animation back into the game.**
+but with `fistbump.pap`. This is your animation file. Place them both somewhere safe, **as you'll need both of them later to put the animation back into the game.**
 
 ### Using AnimAssist
 
@@ -64,7 +64,7 @@ where output_file.hkx will be a Havok file that you can open in 3DS Max using Ha
 This is what it looks like when I run this command on the files we just obtained:
 ![command](https://github.com/lmcintyre/AnimAssist/raw/main/gh/extract.png)
 
-Note the skeleton warning. Skeletons mismatch don't produce an error, and will break literally everything ever.
+Note the skeleton warning. Skeleton mismatches don't produce an error, and may break literally everything ever.
 
 ### Opening the file properly
 
@@ -82,7 +82,8 @@ You have some sweet changes to some animation, but now we need to put it back in
 From the Max menu, click Export and type any filename you want, and save it in a cool, dry place. In the "Save as type"
 drop-down, select "Havok Export (*.HKA, *.HKX, *.,HKT)". We will be saving an hkx file once more. Export your file,
 again, selecting **disable scale, invert top, and set Back: Top.** You must select those, as well 
-as **Export animation and include skeleton**. **Optimize tracks is optional**.
+as **Export animation and include skeleton**. Set **toolset to 2014**. In my testing, I found that it was optional,
+however, it seems safest to **disable optimize tracks** according to user reports.
 
 ### Using AnimAssist (cont)
 

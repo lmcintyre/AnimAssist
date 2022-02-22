@@ -221,7 +221,7 @@ def read_sklb_header_2(sklb_data) -> dict:
     # 4 byte skeleton id
     # 4 x 4 byte other skeleton ids
 
-    hdr = { k: v for k, v in zip(SKLB_HDR_2, struct.unpack('<4sIIIII4I', sklb_data[0:44])) }
+    hdr = { k: v for k, v in zip(SKLB_HDR_2, struct.unpack('<4sIIIII4I', sklb_data[0:40])) }
     for key in hdr.keys():
         dbgprint(f"{key} : {hdr[key]}")
     return hdr
